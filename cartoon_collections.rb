@@ -1,5 +1,5 @@
 def roll_call_dwarves(names)
-  each_dwarf# code an argument here
+  each_dwarf = []# code an argument here
   names.each_with_index do |list|
     each_dwarf << "#{list}" # Your code here
   end
