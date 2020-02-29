@@ -1,6 +1,5 @@
 def roll_call_dwarves(names)
-  each_dwarf = []# code an argument here
-  names.map.with_index do |list|
+  names.map.with_index{|list,i| [list, i+2]}
    "#{i}. #{list}" # Your code here
   end
 end
