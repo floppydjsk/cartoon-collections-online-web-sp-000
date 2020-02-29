@@ -9,7 +9,7 @@ def summon_captain_planet(elements)
 end
 
 def long_planeteer_calls(array)
-  array.map {|lol| if lol.length > 4 return true else return false end}
+  array.any?{|i| i.length > 4}
 
 end
 
