@@ -13,7 +13,15 @@ def long_planeteer_calls(array)
 
 end
 
-def find_the_cheese# code an argument here
-  # the array below is here to help
+def find_the_cheese(ingredients)
   cheese_types = ["cheddar", "gouda", "camembert"]
+  if ingredents.include?("cheddar")
+    return "cheddar"
+  elsif ingredients.include?("gouda")
+    return "gouda"
+  elsif ingredients.include?("camembert")
+    return "camembert"
+  else
+    return nil
+  end
 end
